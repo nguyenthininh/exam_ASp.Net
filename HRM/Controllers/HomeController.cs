@@ -28,7 +28,7 @@ namespace HRM.Controllers
             return View();
         }*/
 
-/*        public IActionResult Index() => View(repository.Employees);*/
+        public IActionResult Index() => View(repository.Employees);
 
         public IActionResult Privacy()
         {
