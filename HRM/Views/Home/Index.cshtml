@@ -1,0 +1,14 @@
+﻿@model IQueryable<Employee>
+@foreach (var e in Model)
+{
+<div>
+    <h3>List Employee</h3>
+    <h5>@e.Name</h5>
+    <span>@e.Gender</span>
+    <span>@e.Birthday</span>
+    <span>@e.Telephone</span>
+    <span>@e.Email</span>
+    <span>@e.Address</span>
+
+</div>
+}
